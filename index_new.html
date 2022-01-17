@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>IIITH Resources</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WBFQRRQ');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KRPZ1GF5EB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KRPZ1GF5EB');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Bhav Beri">
+    <meta name='designer' content='Bhav Beri'>
+    <meta name='owner' content='Bhav Beri'>
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="IIITH Resources">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="./assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBFQRRQ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <span class="icon fa-bookmark"></span>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1><a href="./index.html">IIITH Resources</a></h1>
+                    <h3>A One Stop Destination for your IIITH Life.</h3>
+                    <h5>A Website full of resources for your amazing journey at this wonderful institution.</h5>
+                </div>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <p>These are the resources of my time, so these may or may not be the same for you. Moreover, rather
+                        than just checking the answers for the Quizzes/Assignments, better to solve them yourselves, so
+                        that they help you in the future too.</p>
+                    <h6>For any suggestions/issues/corrections in the site or material, please create an <i>Issue</i> on
+                        <a href="https://github.com/bhavberi/IIITH-Resources/issues" target="_blank">GitHub Issues
+                            Page</a>.
+                    </h6>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#non-academic">Non - Academic</a></li>
+                    <li><a href="#external">More External Resources</a></li>
+                    <li><a href="#contribute">Contribute</a></li>
+
+                </ul>
+            </nav>
+            <div class="content">
+                <p><br /></p>
+                <a class="button primary fit" href="https://iiith.boards.net/" rel="follow" target="_self">IIITH
+                    Forum</a>
+                <p><br /></p>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Intro -->
+            <article id="courses">
+                <h2 class="major">Courses List</h2>
+                <include src="./Web/courses_table.html"></include>
+
+
+            </article>
+
+            <!-- About -->
+            <article id="about">
+                <h2 class="major">About</h2>
+                <include src="./Web/about.html"></include>
+            </article>
+
+            <!-- Non-Academic -->
+            <article id="non-academic">
+                <h2>Non-Academic</h2>
+                <h2 class="major">Resources</h2>
+                <include src="./Web/non_academic.html"></include>
+                <include src="./Web/clubs.html"></include>
+                <div id="PDFViewer" style="display: none;">
+                    <hr style="border-top: 3px dashed red;">
+                    <p> If you are unable to view this file properly, Please
+                        <a href="./" rel="follow" target="_blank" download id="PDFViewerDownload">Click here</a> to open
+                        it externally.
+                    </p>
+                    <object data="./Other_Good_Resources/Facebook_links_clubs.pdf" type="application/pdf" width="100%"
+                        height="800" id="PDFViewerObject">
+                        <iframe src="./Web/assets/ViewerJS/#../../../Other_Good_Resources/Facebook_links_clubs.pdf"
+                            width='100%' height='800' allowfullscreen webkitallowfullscreen id="PDFViewerIFrame">
+                        </iframe>
+                    </object>
+                </div>
+            </article>
+
+            <!-- External-->
+            <article id="external">
+                <h2>More External</h2>
+                <h2 class="major">Resources</h2>
+                <include src="./Web/more_academic_resources.html"></include>
+            </article>
+
+            <!-- Contact -->
+            <article id="contribute">
+                <h2 class="major">Contribute</h2>
+                <h4>
+                    You are requested to either contribute through <br /><b>Github Repository</b> directly (See <a
+                        href="#about">About Tab</a> for Github Repo Link) {PREFERRED} and then fill the below form with
+                    your request link.<br />OR</br>Via this <a href="https://forms.gle/uVyFDB8qVB1etPgf9" rel="follow"
+                        target="_parent">Form</a> (Please make a single drive folder for all your files and then share
+                    the <i>Public Link</i> of it).
+                </h4>
+                <hr style="border-top: 3px dashed gainsboro;">
+                <h4>
+                    Please read the <a
+                        href="https://github.com/bhavberi/IIITH-Resources/blob/main/.github/CONTRIBUTING.md"
+                        rel="author" target="_blank">Contributing Guidelines</a>.
+                </h4>
+                <hr style="border-top: 3px dashed gainsboro;">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSdHKvQmXa5Kn4TPGYPbBOucQeT4Z8bblIYiL6leR0e2tTn-yA/viewform?embedded=true"
+                    width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <!---<ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                </ul>--->
+            </article>
+
+        </div>
+
+        <!-- Footer -->
+
+        <footer id="footer">
+            <p class="copyright">&copy; <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/LICENSE.md"
+                    target="_blank" rel="follow">Bhav Beri & Contibutors. <img alt="GitHub"
+                        src="https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic"></a>
+            </p>
+            <p class="copyright">Design: Dimension by HTML5 UP.</p>
+            <!--
+	           Dimension by HTML5 UP
+	           html5up.net | @ajlkn
+	           Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+             -->
+            <!-- hitwebcounter Code START -->
+
+            <a href="https://www.hitwebcounter.com" target="_blank" onclick="return false;"> Website Views :
+                <img src="https://hitwebcounter.com/counter/counter.php?page=7920934&style=0038&nbdigits=6&type=page&initCount=100"
+                    title="Free Counter" Alt="web counter" border="0" />
+            </a>
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+    <!---<include src="./trial.html"></include>--->
+    <script async>
+        function pdffn(name1, name2) {
+            var x = document.getElementById("PDFViewerObject");
+            var y = document.getElementById("PDFViewerIFrame");
+            x.data = name1;
+            y.contentWindow.history.replaceState('WhatEverNameYouWant', "", name2);
+            document.getElementById("PDFViewerIFrame").src = name2;
+            document.getElementById("PDFViewerDownload").href = name1;
+            if (document.getElementById("PDFViewer").style.display === "none") {
+                document.getElementById("PDFViewer").style.display = "block";
+            }
+            else if (document.getElementById("PDFViewer").style.display === "block") {
+                document.getElementById("PDFViewer").style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
